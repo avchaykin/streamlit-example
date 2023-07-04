@@ -8,7 +8,6 @@ import streamlit as st
 # Spiral
 """
 
-with st.echo(code_location='below'):
 total_points = st.slider("Number of points in spiral", 1, 15000, 2000)
 num_turns = st.slider("Number of turns in spiral", 1, 10, 1)
 
